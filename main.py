@@ -31,6 +31,7 @@ Citation_URL_number = 0
 for i in range(1,30):
     try:
         print(i)
+        #入力はここのURLを変えてください
         url = 'https://www.semanticscholar.org/paper/Plasma-%3A-Scalable-Autonomous-Smart-Contracts-Poon/cbc775e301d62740bcb3b8ec361721b3edd7c879'
         url = url + "?sort=relevance&page=" + str(i)
         #print(url)
